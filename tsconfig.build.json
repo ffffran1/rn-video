@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "lib/module",
+    "declaration": true,
+    "declarationDir": "lib/typescript",
+    "noEmit": false,
+    "types": ["react-native"]
+  },
+  "exclude": ["src/**/__tests__"]
+}

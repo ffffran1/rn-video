@@ -1,0 +1,15 @@
+node_modules/
+lib/
+*.log
+.DS_Store
+
+# example app
+example/node_modules/
+example/ios/Pods/
+example/ios/build/
+example/android/.gradle/
+example/android/app/build/
+example/android/build/
+example/vendor/
+*.xcuserstate
+xcuserdata/
