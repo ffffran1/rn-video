@@ -1,4 +1,4 @@
-# react-native-video-multiplataform
+# react-native-video-multiplatform
 
 Reproductor de video para **React Native (iOS y Android)** con soporte para **VOD** (MP4, HLS, DASH) y **transmisiones en vivo** (HLS/DASH, con o sin DVR), y controles **100 % personalizables**.
 
@@ -16,9 +16,9 @@ Por debajo usa [`react-native-video`](https://github.com/TheWidlarzGroup/react-n
 ## Instalación
 
 ```sh
-npm install react-native-video-multiplataform react-native-video
+npm install react-native-video-multiplatform react-native-video
 # o
-yarn add react-native-video-multiplataform react-native-video
+yarn add react-native-video-multiplatform react-native-video
 ```
 
 En iOS instala los pods:
@@ -32,7 +32,7 @@ No hace falta ninguna otra configuración nativa: `react-native-video` se enlaza
 ## Uso básico
 
 ```tsx
-import { VideoPlayer } from 'react-native-video-multiplataform';
+import { VideoPlayer } from 'react-native-video-multiplatform';
 
 // VOD
 <VideoPlayer
@@ -176,7 +176,7 @@ Si defines `onControlPress`, **tú decides** qué pasa al pulsar cualquier contr
 `renderTopBarExtra` (a la derecha del título) y `renderBottomBarExtra` (antes del botón de volumen). Usa `ControlButton` para que los controles no se oculten mientras interactúas.
 
 ```tsx
-import { VideoPlayer, ControlButton } from 'react-native-video-multiplataform';
+import { VideoPlayer, ControlButton } from 'react-native-video-multiplatform';
 
 <VideoPlayer
   source={source}
@@ -224,7 +224,7 @@ import {
   TimeDisplay,
   LiveIndicator,
   ControlButton,
-} from 'react-native-video-multiplataform';
+} from 'react-native-video-multiplatform';
 
 function MyControls() {
   const player = useVideoPlayer();
@@ -262,7 +262,7 @@ Si prefieres no mostrar ningún control y manejar todo desde fuera, usa `control
 
 ```tsx
 import { useRef } from 'react';
-import { VideoPlayer, type VideoPlayerRef } from 'react-native-video-multiplataform';
+import { VideoPlayer, type VideoPlayerRef } from 'react-native-video-multiplatform';
 
 const player = useRef<VideoPlayerRef>(null);
 
@@ -319,7 +319,7 @@ npm version patch   # o minor / major
 npm publish         # ejecuta typecheck, tests y build automáticamente
 ```
 
-El paquete se publica como `react-native-video-multiplataform`.
+El paquete se publica como `react-native-video-multiplatform`.
 
 ## Licencia
 

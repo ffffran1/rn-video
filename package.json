@@ -1,5 +1,5 @@
 {
-  "name": "react-native-video-multiplataform",
+  "name": "react-native-video-multiplatform",
   "version": "0.1.0",
   "description": "Reproductor de video para React Native (iOS y Android) con soporte para VOD y transmisiones en vivo (HLS/DASH) y controles 100% personalizables. No requiere Expo.",
   "main": "lib/commonjs/index.js",
